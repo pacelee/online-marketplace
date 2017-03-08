@@ -1,0 +1,7 @@
+{{product-detail product=model.product}}
+<div class='container'>
+<h1>Reviews</h1>
+{{#each model.product.reviews as |review|}}
+ {{review-tile review=review}}
+{{/each}}
+</div>

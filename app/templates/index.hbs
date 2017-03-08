@@ -1,0 +1,10 @@
+<div class="container">
+  <p><strong> Your cart </strong></p>
+  {{display-cart}}
+  {{#each model.products as |product|}}
+  <div class="col-md-6 bordering">
+    {{product-list product=product}}
+    {{new-review saveReview="saveReview" product=product}}
+  </div>
+  {{/each}}
+</div>

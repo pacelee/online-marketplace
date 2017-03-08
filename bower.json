@@ -1,5 +1,6 @@
 {
   "name": "online-marketplace",
   "dependencies": {
+    "bootstrap": "^3.3.7"
   }
 }

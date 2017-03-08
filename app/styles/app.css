@@ -1,0 +1,10 @@
+.imagesizing {
+  width: 400px;
+  height: 285px;
+}
+
+.bordering {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 15px
+}

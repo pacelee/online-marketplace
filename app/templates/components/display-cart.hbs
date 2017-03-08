@@ -1,0 +1,7 @@
+{{#each shoppingCart.products as |product|}}
+  {{product.type}} -- {{product.price}}
+  <button {{action 'removeItem' product}}> Remove</button>
+  <br>
+{{/each}}
+<hr>
+Total: ${{shoppingCart.total}}

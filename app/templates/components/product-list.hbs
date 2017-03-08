@@ -1,0 +1,6 @@
+  {{#link-to 'product' product.id}}
+  <p><img class="imagesizing" src={{product.image}} alt={{product.type}}></p>
+  <h1>{{product.type}}</h1>
+  <h2>Price: ${{product.price}}</h2>
+  {{/link-to}}
+  <button {{action 'addToCart' product}}>Add to Cart</button>
